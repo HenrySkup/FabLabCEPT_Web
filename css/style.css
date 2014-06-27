@@ -1,0 +1,50 @@
+/*!
+ * FabLab CEPT Website top-level CSS
+ * Copyright 2014 FabLab CEPT, Henry Skupniewicz
+ * Licensed under MIT
+ */
+
+
+ body
+  {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+ }
+
+section {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark p, .dark h3, .dark i, .dark .copy {
+    color: #E8E8E8;
+}
+
+.dark i {
+    font-size: 6rem;
+    padding-bottom: 20px;
+}
+.dark .copy {
+    margin-top: 350px;
+}
+
+#cover {
+    background-image: url(../content/cover.png);
+}
+#lab {
+    background-image: url(../content/lab.png);
+}
+
+.form-control {
+  width: 80%;
+  color: #555;
+  background-color: #E8E8E8;
+  border: none;
+  border-radius: 1px;
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
